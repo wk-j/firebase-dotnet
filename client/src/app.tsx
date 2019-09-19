@@ -18,7 +18,6 @@ var firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 
-
 type State = {
     values: any[]
 }
@@ -42,11 +41,11 @@ class App extends React.Component<{}, State> {
 
     render = () =>
         <div>
-            <div>Data</div>
+            <h1>Issues</h1>
             <div>
                 {
                     this.state.values.map(x =>
-                        <h1>{x.title} - {x.label}</h1>
+                        <div>{x.title} - {x.label}</div>
                     )
                 }
             </div>
