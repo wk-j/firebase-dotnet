@@ -22,3 +22,4 @@ BenchmarkDotNet.Artifacts
 
 *.js.map
 *.log
+.firebase
