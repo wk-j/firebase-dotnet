@@ -25,6 +25,8 @@ npm --prefix client install --save-dev \
     @types/react @types/react-dom
 
 npm --prefix client audit fix
+npm --prefix client run build
+npm --prefix client run watch
 ```
 
 *Deploy*
